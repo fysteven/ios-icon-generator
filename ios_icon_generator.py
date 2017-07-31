@@ -29,30 +29,30 @@ import sys
 
 ICONS = {
     'iphone': {
-        'Settings': (29, [1, 2, 3]),
+        'Notification-7-11': (20, [2, 3]),
+        'Settings': (29, [2, 3]),
         'Spotlight': (40, [2, 3]),
-        'App-5-6': (57, [1, 2]),
         'App-7-8': (60, [2, 3]),
     },
     'ipad': {
+        'Notification-7-11': (20, [1, 2]),
         'Settings': (29, [1, 2]),
-        'Spotlight-5-6': (50, [1, 2]),
-        'Spotlight-7-8': (40, [1, 2]),
-        'App-5-6': (72, [1, 2]),
-        'App-7-8': (76, [1, 2]),
+        'Spotlight-7-11': (40, [1, 2]),
+        'App-7-11': (76, [1, 2]),
+        # 'iPad-Pro-App-9-11': (83.5, [2]),
     },
-    'carplay': {
-        '8': (120, [1]),
-    },
-    'applewatch': {
-        'Notification-Center-38mm': (24, [1]),
-        'Notification-Center-42mm': (28, [1]),  # 27.5pt in xcode, ceiling to 28pt
-        'Companion-Settings': (29, [2, 3]),
-        'Home-Screen-Long-Look': (40, [2]),
-        'Long-Look': (44, [1]),
-        'Short-Look-38mm': (86, [1]),
-        'Short-Look-42mm': (98, [1]),
-    },
+    # 'carplay': {
+    #     '8': (120, [1]),
+    # },
+    # 'applewatch': {
+    #     'Notification-Center-38mm': (24, [1]),
+    #     'Notification-Center-42mm': (28, [1]),  # 27.5pt in xcode, ceiling to 28pt
+    #     'Companion-Settings': (29, [2, 3]),
+    #     'Home-Screen-Long-Look': (40, [2]),
+    #     'Long-Look': (44, [1]),
+    #     'Short-Look-38mm': (86, [1]),
+    #     'Short-Look-42mm': (98, [1]),
+    # },
 }
 
 def image_name(image_type, device_name, scale):
